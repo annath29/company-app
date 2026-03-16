@@ -7,7 +7,7 @@ export const routes: Routes = [
     children: [
       {
         path: '',
-        loadComponent: () => import('./modules/admin/pages/sumary/sumary'),
+        loadComponent: () => import('./modules/admin/pages/summary/summary'),
       },
       {
         path: 'projects',
